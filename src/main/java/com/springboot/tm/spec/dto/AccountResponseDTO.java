@@ -2,6 +2,8 @@ package com.springboot.tm.spec.dto;
 
 import lombok.Data;
 
+import java.math.BigDecimal;
+
 @Data
 public class AccountResponseDTO {
 
@@ -12,5 +14,7 @@ public class AccountResponseDTO {
     private String status;
 
     private String freezeStatus;
+
+    private BigDecimal balance;
 
 }
