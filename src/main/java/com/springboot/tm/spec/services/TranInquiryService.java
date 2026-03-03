@@ -4,8 +4,10 @@ import com.springboot.tm.spec.dto.AccountRequestDTO;
 import com.springboot.tm.spec.dto.AccountResponseDTO;
 import com.springboot.tm.spec.dto.TransactionInquiryDTO;
 
+import java.util.List;
+
 public interface TranInquiryService {
 
-    public TransactionInquiryDTO retrieveTran(String accountNumber);
+    public List<TransactionInquiryDTO> retrieveTran(String accountNumber);
 
 }
